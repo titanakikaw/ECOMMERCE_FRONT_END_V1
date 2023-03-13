@@ -1,0 +1,3 @@
+input[type="radio"]:checked + span {
+  background-color: rgb(160, 246, 156);
+}
