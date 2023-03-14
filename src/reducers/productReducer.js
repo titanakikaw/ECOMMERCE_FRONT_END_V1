@@ -6,6 +6,6 @@ export const productReducer = (state = productInitValue, { type, payload }) => {
       return payload;
 
     default:
-      return productInitValue;
+      return state;
   }
 };

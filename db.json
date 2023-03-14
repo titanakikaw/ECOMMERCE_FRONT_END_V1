@@ -1,18 +1,14 @@
 {
   "products": [
     {
+      "userId": "123456789",
       "id": 1,
       "type": "Clothing",
       "category": "Men's",
       "name": "Example Product",
       "description": "This is an example product with various sizes, colors, and prices.",
       "image_url": "https://image.similarpng.com/very-thumbnail/2020/11/White-shirt-isolated-on-transparent-background-PNG.png",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "sizes": ["S", "M", "L", "XL"],
       "variants": [
         {
           "color": "Red",
@@ -22,12 +18,7 @@
             "L": 29.99,
             "XL": 34.99
           },
-          "stocks": [
-            10,
-            20,
-            15,
-            5
-          ]
+          "stocks": [10, 20, 15, 5]
         },
         {
           "color": "Green",
@@ -37,12 +28,7 @@
             "L": 31.99,
             "XL": 36.99
           },
-          "stocks": [
-            5,
-            15,
-            10,
-            2
-          ]
+          "stocks": [5, 15, 10, 2]
         },
         {
           "color": "Blue",
@@ -52,12 +38,7 @@
             "L": 33.99,
             "XL": 38.99
           },
-          "stocks": [
-            15,
-            10,
-            5,
-            0
-          ]
+          "stocks": [15, 10, 5, 0]
         }
       ],
       "general_price": "₱19.99 - ₱38.99",
@@ -67,36 +48,5 @@
       }
     }
   ],
-  "cart": [
-    {
-      "qty": 7,
-      "size": {
-        "id": 0,
-        "name": "S"
-      },
-      "color": "Red",
-      "productId": 1,
-      "id": 1
-    },
-    {
-      "qty": 2,
-      "size": {
-        "id": 1,
-        "name": "M"
-      },
-      "color": "Red",
-      "productId": 1,
-      "id": 2
-    },
-    {
-      "qty": 2,
-      "size": {
-        "id": 3,
-        "name": "XL"
-      },
-      "color": "Red",
-      "productId": 1,
-      "id": 3
-    }
-  ]
+  "cart": []
 }
